@@ -6,7 +6,6 @@
 //  Copyright © 2021 Incetro Inc. All rights reserved.
 //
 
-#if DEBUG
 #if canImport(ObjectiveC)
 import Foundation
 
@@ -67,5 +66,4 @@ private let XCTest = NSClassFromString("XCTest")
 private let _XCTFailureHandler = XCTest
     .flatMap { dlsym($0, "_XCTFailureHandler") }
     .map { unsafeBitCast($0, to: XCTFailureHandler.self) }
-#endif
 #endif
