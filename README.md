@@ -152,3 +152,4 @@ extension FailingAnalyticsManager: AnalyticsManager {
 ## License
 
 This library is released under the MIT license. See [LICENSE](LICENSE) for details.
+Thanks [pointfree](https://github.com/pointfreeco/xctest-dynamic-overlay) very much for their idea 🖤
